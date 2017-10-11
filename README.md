@@ -1,4 +1,3 @@
-Loof.js
-#######
+# Loof.js
 
 Maybe later...
