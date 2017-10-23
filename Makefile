@@ -8,4 +8,4 @@ tidy:
 	./node_modules/js-beautify/js/bin/js-beautify.js -r lib/*.js
 
 install: main.js
-	scp -r $^ index.html box2d img planet:www/loof/js/
+	scp -r $^ index.html img planet:www/loof/js/
