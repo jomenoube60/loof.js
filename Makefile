@@ -9,3 +9,6 @@ tidy:
 
 install: main.js
 	scp -r $^ index.html img planet:www/loof/js/
+
+tags: main.js
+	jsctags -f lib/*.js | LC_ALL=C sort > tags
