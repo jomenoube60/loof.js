@@ -14,3 +14,6 @@ tags: main.js
 
 watch:
 	./node_modules/webpack/bin/webpack.js --watch
+
+dist:
+	./node_modules/webpack/bin/webpack.js --config webpack.dev-config.js
