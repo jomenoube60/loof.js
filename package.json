@@ -1,0 +1,45 @@
+{
+    "name": "loof",
+    "version": "1.0.0",
+    "description": "A fun soccer mini game",
+    "main": "main.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "dependencies": {
+        "planck-js": "^0.1.34"
+    },
+    "devDependencies": {
+        "babel-runtime": "^6.26.0",
+        "babel-cli": "^6.16.0",
+        "babel-core": "^6.17.0",
+        "babel-loader": "^7.1.2",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-es2015": "^6.16.0",
+        "js-beautify": "^1.7.4",
+        "uglifyjs-webpack-plugin": "^1.0.1",
+        "gulp-babel": "^7.0.0",
+        "gulp-babel-minify": "^0.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-watch": "^4.3.11",
+        "gulp-webpack": "^1.5.0",
+        "webpack": "^3.8.1"
+    },
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jomenoube60/loof.js.git"
+    },
+    "keywords": [
+        "game",
+        "soccer",
+        "javascript"
+    ],
+    "author": "jomenoube+fdev31",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jomenoube60/loof.js/issues"
+    },
+    "homepage": "https://github.com/jomenoube60/loof.js#readme"
+}
