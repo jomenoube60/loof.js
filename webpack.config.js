@@ -9,7 +9,7 @@ module.exports = {
     devtool: 'inline-source-map',
     module: {
         loaders: [
-//            { loader: 'babel-loader', options: {          plugins: [require('babel-plugin-transform-object-rest-spread')] } }
+            { loader: 'babel-loader', options: {          plugins: [require('babel-plugin-transform-object-rest-spread')] } }
         ]
     },
  plugins: [
