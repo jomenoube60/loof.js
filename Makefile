@@ -14,3 +14,7 @@ tags: main.js
 
 watch:
 	./node_modules/webpack/bin/webpack.js --watch
+
+dist:
+	./node_modules/webpack/bin/webpack.js --config webpack.dist-config.js
+	scp main.js planet:www/loof/js/
